@@ -1,0 +1,366 @@
+body{
+	margin: 0;
+}
+.header-area {
+	background-color: #3A5795;
+	font-family: tahoma;
+}
+.container{
+	width: 90%;
+	margin: auto;
+	max-width: 960px;
+	padding: 8px 0;
+}
+.header-area .logo-area {
+	width: 30%;
+	float: left;
+}
+.header-area .login-area {
+	width: 70%;
+	overflow: hidden;
+}
+.login-area label,
+.login-area input {
+	display: block;
+}
+.login-area label {
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.login-area input {
+	margin: 5px 0 3px;
+	border: 1px solid #1D2A5B;
+	padding: 2px;
+}
+.login-area .pass-area a {
+	text-decoration: none;
+	color: #8CACC3;
+	font-size: 12px;
+	
+}
+.login-area .username-area input[type="checkbox"]{
+	float: left;
+	margin-left: 0;
+}
+.login-area .username-area {
+	float: left;
+	padding-right: 15px;
+}
+.login-area .pass-area {
+	float: left;
+	overflow: hidden;
+	padding-right: 15px;
+}
+.login-area .submit-area {
+	overflow: hidden;
+	float: left;
+	margin-top: 18px;
+	
+}
+.submit-area input {
+	cursor: pointer;
+	background-color: #5A74A8;
+	color: #FFFFFF;
+}
+.login-area .username-area label:last-child {
+	color: #8CACC3;
+	display: inline-block;
+	margin-left: 2px;
+	overflow: hidden;
+	margin-top: 4px; 
+}
+.login-area .pass-area a:hover {
+	text-decoration: underline;
+}
+.login-area form {
+	float: right;
+}
+
+/* middle part start */
+.main-area {
+	font-family: tahoma;
+	background-image: linear-gradient(#FFFFFF,#D5DAE9);
+}
+.mobile-area {
+	float: left;
+	width:52%;
+	margin-right: 8%;
+}
+
+.signup-area {
+	overflow: hidden;
+	width:40%;
+}
+.full-mob {
+	
+	margin-top: 30px;
+	background: url('images/background.png') no-repeat;
+	min-height: 280px;
+	background-position: bottom left;
+}
+.mob-img {
+	float: left;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+.mob-text {
+	overflow: hidden;
+	padding-bottom: 3px;
+}
+.mob-text h4 {
+	font-weight: normal;
+	margin: 0;
+	font-size: 14px;
+}
+.mob-text p {
+	font-size: 12px;
+	color: #9197AD;
+	margin-top: 0;
+}
+.mob-text a{
+	text-decoration: none;
+	font-size: 12px;
+	border: 1px solid #000000;
+	padding: 2px;
+	float: right;
+	background-image: linear-gradient(#FFFFFF,#D5DAE9);
+	margin-top: 40px;
+	color: #3A5795;
+}
+
+.signup-area {
+	padding-bottom: 20px;
+}
+.signup-area h1 {
+	font-family: 'Public Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 0;
+	font-size: 36px;
+}
+.signup-area h2 {
+	font-family: 'Public Sans', sans-serif;
+	font-weight: normal;
+	margin-top: 0;
+}
+.signup-area [type="text"],
+.signup-area [type="password"]{
+	display: block;
+	
+	width: 100%;
+	box-sizing: border-box;
+	padding: 8px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	border: 1px solid #C1CADA;
+}
+.signup-area input[type="text"]:first-child {
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}.signup-area input[type="text"]:nth-child(2) {
+	width: 48%;
+	overflow: hidden;
+}
+.signup-area p {
+	font-size: 12px;
+	color: #9197AD;
+}
+.signup-area h4 {
+	font-size: 20px;
+	font-family: tahoma;
+	font-weight: normal;
+	margin: 2px 0 10px;
+}
+.signup-area .birthday{
+	overflow: hidden;
+}
+.signup-area .birthday select {
+	padding: 5px 2px;
+	border: 1px solid #C1CADA;
+	float: left;
+	
+}
+.signup-area .birthday select:last-of-type {
+	margin-right: 10px;
+}
+.signup-area .birthday a {
+	text-decoration: none;
+	color: #3A5795;
+	font-size: 13px;
+	line-height: 15px;
+	display: block;
+	
+}
+.signup-area .birthday a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.signup-area .gender {
+	margin: 8px 0;
+}
+.signup-area .gender label {
+	cursor: pointer;
+}
+.signup-area a {
+	text-decoration: none;
+	color: #3A5795;
+	font-size: 13px;
+}
+.signup-area input[type="submit"]{
+	background: linear-gradient(#77B762,#588A44);
+	color: white;
+	padding: 6px 68px;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #588A44;
+}
+.signup-area hr {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #666666;
+	margin: 15px 0;
+}
+.signup-area .page {
+	font-size: 16px;
+	font-family: tahoma;
+	
+}
+.signup-area .page a {
+	font-size: 16px;
+	font-family: tahoma;
+	
+}
+.footer-area {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #3A5795;
+	padding-bottom: 15px;
+	
+}
+.footer-area ul {
+	list-style: none;
+	padding: 0;
+	margin: 6px 0;
+}
+.footer-area ul li a {
+	text-decoration: none;
+	color: #3A5795;
+}
+.footer-area ul li {
+	float: left;
+	margin-right: 15px;
+}
+.footer-area .list-top ul li:last-child {
+	background: #F4F5F9;
+	padding: 2px 5px;
+}
+.footer-area .list-top ul li:last-child a:hover {
+	background: #D7DCEB;
+	padding: 2px 5px;
+}
+.footer-area .list-top {
+	overflow: hidden;
+}
+.footer-area hr {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #C1CADA;
+	margin: 5px 0;
+}
+.footer-area .list-bottom{
+	width: 90%;
+	overflow: hidden;
+}
+.footer-area .list-bottom ul li {
+	width: 10%;
+	margin-bottom: 8px;
+}
+.footer-area .cr a {
+	color: #3A5795;
+}
+
+
+
+
+
+
+@media all and (max-width: 768px ) {
+	.header-area .logo-area {
+		float: none;
+		padding-bottom: 5px;
+	
+		width: 100%;
+		text-align: center;
+	}
+	.header-area .login-area {
+		width: 100%;
+	}
+	.login-area form {
+		float: none;
+		width: 368px;
+		margin:auto;
+	}
+	.main-area .mobile-area{
+		float: none;
+		width:100%;
+	}
+	.mob-text a{
+		float: none;
+	}
+	.main-area .signup-area{
+		
+		width:100%;
+	}
+	
+}
+@media all and (max-width: 400px ){
+	.login-area form {
+		width: auto;
+	}
+	.login-area .username-area {
+		float: none;
+		padding-bottom:5px;
+	}
+	.login-area .pass-area {
+		float: none;
+	}
+	.login-area .submit-area {
+		float: none;
+	}
+	.login-area .username-area input[type="text"],
+	.login-area .pass-area input[type="password"]{
+		width: 100%
+	}
+	.login-area .submit-area input {
+		margin: auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
